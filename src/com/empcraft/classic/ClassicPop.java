@@ -12,7 +12,7 @@ import java.util.Random;
 /**
  * @author Citymonstret
  */
-public class XPopulator extends BlockPopulator {
+public class ClassicPop extends BlockPopulator {
 
     /*
      * Sorry, this isn't well documented at the moment.
@@ -39,7 +39,7 @@ public class XPopulator extends BlockPopulator {
     private int Z;
     private long state;
 
-    public XPopulator(final PlotWorld pw) {
+    public ClassicPop(final PlotWorld pw) {
         this.plotworld = (ClassicPlotWorld) pw;
 
         // save configuration

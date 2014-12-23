@@ -207,7 +207,7 @@ public class ClassicGen extends PlotGenerator {
         }
         // You can have as many populators as you would like, e.g. tree
         // populator, ore populator
-        return Arrays.asList((BlockPopulator) new XPopulator(this.plotworld));
+        return Arrays.asList((BlockPopulator) new ClassicPop(this.plotworld));
     }
 
     /**
